@@ -5,22 +5,64 @@
 ._*
 .Spotlight-V100
 .Trashes
-Icon?
-
-# Thumbnails
-._*
-
-# Files on external disks
-.Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
+.apdisk
+Icon?
 Network Trash Folder
 Temporary Items
-.apdisk
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
+
+# Embedded build output
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+.pio/
+
+# Secrets / credentials
+.env.local
+.env.*.local
+*.pem
+*.key
 
 # Editor / IDE
 *.swp
