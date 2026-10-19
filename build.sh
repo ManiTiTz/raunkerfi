@@ -23,6 +23,7 @@ git push
 # -t so Ctrl+C reaches the script on the Pi (and the motors stop)
 ssh -t "$PI_HOST" "
     set -e
+    export PATH=\$HOME/.local/bin:\$PATH  # uv lives here; non-interactive ssh skips .bashrc
     [ -d $PI_REPO ] || git clone $REPO_URL $PI_REPO
     cd $PI_REPO
     git pull --ff-only
