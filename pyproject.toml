@@ -3,5 +3,6 @@ name = "raunkerfi"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [
+    "adafruit-blinka>=9.2.0",
     "adafruit-circuitpython-motor>=3.5.0",
 ]
